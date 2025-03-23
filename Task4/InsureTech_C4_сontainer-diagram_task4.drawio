@@ -25,13 +25,12 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST + WebSockets" c4Description="1. Получения тарифов&#xa;2. Создание заявок на страховки" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-5">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-4">
-            <mxGeometry width="240" relative="1" as="geometry">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-4" target="uZ0quFO-MIEIE11IO5jD-3">
+            <mxGeometry x="-0.4648" width="240" relative="1" as="geometry">
               <mxPoint x="550" y="290" as="sourcePoint" />
               <mxPoint x="610" y="430" as="targetPoint" />
-              <Array as="points">
-                <mxPoint x="610" y="431" />
-              </Array>
+              <Array as="points" />
+              <mxPoint y="1" as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -107,13 +106,13 @@
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Event Streaming" c4Description="Получение событий&#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-18">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="_EFjXL88GmmteWEu14sg-1">
-            <mxGeometry x="-0.4666" y="-20" width="240" relative="1" as="geometry">
+            <mxGeometry x="-0.3777" y="-20" width="240" relative="1" as="geometry">
               <mxPoint x="1190" y="500" as="sourcePoint" />
               <mxPoint x="1370" y="500" as="targetPoint" />
-              <mxPoint as="offset" />
+              <mxPoint x="-1" as="offset" />
               <Array as="points">
-                <mxPoint x="860" y="490" />
-                <mxPoint x="860" y="547" />
+                <mxPoint x="870" y="490" />
+                <mxPoint x="870" y="547" />
               </Array>
             </mxGeometry>
           </mxCell>
@@ -235,13 +234,13 @@
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение/сохранение &#xa;информации о клиентах" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ckVUTfoMV_SZnMC_Z-Nl-4">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ckVUTfoMV_SZnMC_Z-Nl-1">
-            <mxGeometry width="240" relative="1" as="geometry">
+            <mxGeometry x="0.2105" width="240" relative="1" as="geometry">
               <mxPoint x="730" y="440" as="sourcePoint" />
               <mxPoint x="1030" y="260" as="targetPoint" />
-              <mxPoint x="-1" as="offset" />
+              <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="800" y="440" />
-                <mxPoint x="800" y="240" />
+                <mxPoint x="790" y="440" />
+                <mxPoint x="790" y="240" />
               </Array>
             </mxGeometry>
           </mxCell>
@@ -337,34 +336,73 @@
           </mxCell>
         </object>
         <mxCell id="9ahuSI_yVEF72-42WrWI-6" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" vertex="1" parent="1">
-          <mxGeometry x="1720" y="440" width="41.67" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9ahuSI_yVEF72-42WrWI-7" value="Retry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="445" width="60" height="30" as="geometry" />
+          <mxGeometry x="1208.33" y="421.6" width="41.67" height="40" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Заявка &#xa;на оформление &#xa;ОСАГО" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="9ahuSI_yVEF72-42WrWI-9">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="9ahuSI_yVEF72-42WrWI-1">
-            <mxGeometry x="0.7333" y="-30" width="240" relative="1" as="geometry">
+            <mxGeometry x="0.6552" y="-40" width="240" relative="1" as="geometry">
               <mxPoint x="730" y="470" as="sourcePoint" />
               <mxPoint x="920" y="250" as="targetPoint" />
               <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="820" y="460" />
-                <mxPoint x="820" y="350" />
+                <mxPoint x="810" y="460" />
+                <mxPoint x="810" y="350" />
               </Array>
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Event Streaming" c4Description="Публикация событий&#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="9ahuSI_yVEF72-42WrWI-10">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9ahuSI_yVEF72-42WrWI-1">
-            <mxGeometry x="-0.4572" y="-70" width="240" relative="1" as="geometry">
+            <mxGeometry x="-0.0057" width="240" relative="1" as="geometry">
               <mxPoint x="981" y="493" as="sourcePoint" />
               <mxPoint x="970" y="520" as="targetPoint" />
-              <mxPoint y="1" as="offset" />
+              <mxPoint as="offset" />
               <Array as="points" />
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-1" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="430" y="486.72" width="39.88" height="38.28" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-4" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" vertex="1" parent="1">
+          <mxGeometry x="10" y="830" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-5" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="10" y="770" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-6" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="10" y="890" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-7" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role" vertex="1" parent="1">
+          <mxGeometry x="11" y="950" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-8" value="TimeOut" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="781" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-9" value="Retry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="839" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-10" value="Rate Limiter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-11" value="Circuit Breaker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="959" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-12" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role" vertex="1" parent="1">
+          <mxGeometry x="1250" y="422.24" width="41" height="39.36" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-15" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="620" y="386.84000000000003" width="36.88" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-17" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role" vertex="1" parent="1">
+          <mxGeometry x="860" y="306.8999999999999" width="38.44" height="36.9" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-19" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" vertex="1" parent="1">
+          <mxGeometry x="820.42" y="306.90000000000003" width="39.58" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ6phUWrRkHTBOFq6lg3-20" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="1291" y="421.6" width="39.58" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
